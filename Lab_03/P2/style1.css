@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+}
+
+.header {
+    width: 100%;
+    background-color: red;
+    padding: 20px 0px 20px 0px;
+}
+
+.topnav {
+    display: flex;
+}
+
+.topnav > a {
+    background-color: yellow;
+    padding: 5px;
+    width: 20%;
+    color: black;
+    text-align: center;
+    border: solid;
+    border-width: 0px 1px 0px 1px;
+}
+
+.main {
+    width: 100%;
+    padding: 250px 0 250px 0px;
+    background-color: green;
+    margin: 0;
+}
+
+.footer {
+    position: inherit;
+    margin: 0;
+    background-color: pink;
+    padding: 20px;
+}

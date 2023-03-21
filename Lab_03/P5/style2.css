@@ -1,0 +1,26 @@
+.pictures {
+    display: flex;
+    flex-wrap: wrap;
+    width: 350px;
+    padding: 20px;
+    border: solid 2px;
+    gap: 25px;
+    align-items: center;
+    background-color: yellow;
+}
+
+.picture {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px;
+}
+
+.image {
+    width: 200px;
+    height: 250px;
+}
+
+p {
+    margin: 0 0 0 10px;
+}

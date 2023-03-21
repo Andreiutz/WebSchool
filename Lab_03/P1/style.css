@@ -1,0 +1,22 @@
+div.parent {
+    position: absolute;
+    border: solid;
+    border-width: 3px;
+    width: 400px;
+}
+
+.text {
+    width: 200px;
+    float: left;
+    text-align: center;
+}
+
+.photo {
+    width: 200px;
+    position: relative;
+    float: right;
+}
+
+.photo > img {
+    width: 200px;
+}

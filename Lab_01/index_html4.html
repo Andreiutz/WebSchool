@@ -1,0 +1,265 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="en">
+<head>
+    <title>Page Title</title>
+    <meta http-equiv="Content-Type" 
+      content="text/html; charset=utf-8">
+</head>
+<body>
+    <table bgcolor="LightGray    ">
+        <tr>
+            <th valign="baseline">Inregistrare concurs</th>
+        </tr>
+        <tr>
+            <td>
+                <label for="cod">Cod concur: (a nu se modifica)</label>
+                <input id="cod" type="text" value="#901PQLX" readonly disabled size="8">
+            </td>
+        </tr>
+        <tr>
+            <th>Date personale</th>
+        </tr>
+        <tr>
+            <td>
+                <table>
+                    <tr>
+                        <th>Nume:</th>
+                        <td>
+                            <input type="text">
+                        </td>
+                        <th>Prenume:</th>
+                        <td colspan="2">
+                            <input type="text">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>CNP:</th>
+                        <td>
+                            <input type="text" maxlength="13">
+                        </td>
+                        <th>Varsta:</th>
+                        <td>
+                            <input type="text">
+                        </td>
+                        <td>
+                            <form action="#">
+                                <input type="radio" name="gender" id="Male" checked>
+                                <label for="Male">M</label>
+                                <input type="radio" name="gender" id="Female">
+                                <label for="Female">F</label>
+                            </form>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Email:</th>
+                        <td colspan="2">
+                            <input type="text">
+                        </td>
+                        <th>Statut:</th>
+                        <td>
+                            <select>
+                                <option>Elev</option>
+                                <option selected>Student</option>
+                                <option>Angajat</option>
+                            </select>
+                        </td>
+                    </tr>
+                   <tr>
+                    <td colspan="5">
+                        <form action="#">
+                            <fieldset>
+                                <legend>Adresa</legend>
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <label for="country">Tara:</label>
+                                            <input type="text" id="country" name="address">
+                                        </td>
+                                        <td>
+                                            <label for="city">Orasul:</label>
+                                            <input type="text" id="city" name="address">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <label for="street">Strada:</label>
+                                            <input type="text" id="street" name="address"> 
+                                        </td>
+                                        <td>
+                                            <label for="postal_code">Cod Postal:</label>
+                                            <input type="text" id="postal_code" name="address"> 
+                                        </td>
+                                    </tr>
+                                </table>
+                            </fieldset>
+                        </form>
+                    </td>
+                   </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <th>Aptitudini</th>
+        </tr>
+        <tr>
+            <td>
+                <form action="#">
+                    <label for="java">Java</label>
+                    <select id="java">
+                        <option value="incepator">Incepator</option>
+                        <option value="mediu">Mediu</option>
+                        <option value="avansat">Avansat</option>
+                    </select>
+                    <br>
+                    <label for="csharp">C#</label>
+                    <select id="csharp">
+                        <option value="incepator">Incepator</option>
+                        <option value="mediu">Mediu</option>
+                        <option value="avansat">Avansat</option>
+                    </select>
+                    <br>
+                    <label for="python">Python</label>
+                    <select id="python">
+                        <option value="incepator">Incepator</option>
+                        <option value="mediu">Mediu</option>
+                        <option value="avansat">Avansat</option>
+                    </select>
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <th>Preferinte</th>
+        </tr>
+        <tr>
+            <td>
+                <p>Selectati cel putin 2 dintre limbajele de mai jos:</p>
+                <br>
+                <select multiple>
+                    <option value="java">Java</option>
+                    <option value="python">Python</option>
+                    <option value="c/c++">C/C++</option>
+                    <option value="go">Go</option>
+                    <option value="js">JavaScript</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <th>Lasa un mesaj!</th>
+        </tr>
+        <tr>
+            <td>
+                <textarea rows="8" cols="70"></textarea>
+            </td>
+        </tr>
+    </table>
+    <h4>
+       Regulament: 
+    </h4>
+    <p>
+        In cadrul concursului fiecare echipa va avea voie doar cu <b>un calculator!</b>
+    </p>
+    <p>Mai jos gasiti lista cu programele necesare in cadrul concursului:</p>
+    <ol>
+        <li>
+            IDE pentru Java
+            <ul>
+                <li>IntelliJ Ultimate</li>
+                <li>Eclipse</li>
+                <li>NetBeans</li>
+            </ul>
+        </li>
+        <li>
+            SQL Server
+            <ul>
+                <li>PostgreSQL</li>
+                <li>MicrosoftSQL</li>
+            </ul>
+        </li>
+        <li>
+            Doua dintre motoarele de cautare de mai jos
+            <ol type="I" start="2">
+                <li>Google Chrome</li>
+                <li>Opera</li>
+                <li>Safari</li>
+                <li>Microsoft Edge</li>
+                <li>Firefox</li>
+            </ol>
+        </li>
+    </ol>
+    <center>
+        <div>
+            <h3>Va uram succes tuturor si voie buna!</h3>
+            <img src="happy_cat.jpg" alt="Pacat ca nu puteti vedea pisica:x" height="300" width="250">
+        </div>
+    </center>
+    <p align="center">Dati o nota paginii!</p>
+    <select>
+        <option>Rau</option>
+        <option selected>Mediu</option>
+        <option>Bun</option>
+        <option>Perfect</option>
+    </select>
+    <div>
+        <h3>Contact</h3>
+        <a title="pisica" href="https://www.google.com" target="_blank">Click <span><strong>me</strong></span></a>
+    </div>
+</body>
+</html>
+
+<!--
+
+    tags: 
+        - a
+        - table (tr, th, td)
+        - div
+        - strong
+        - ul
+        - ol
+        - il
+        - form
+        - input
+        - select
+        - option
+        - b
+        - textarea
+        - h1..h6
+        - img
+        - center (deprecated in html5)
+        - fieldset
+        - legend
+        - p
+        - br
+        - span
+
+    attributes:
+        - href
+        - name
+        - target
+        - border
+        - colspan
+        - align (deprecated in html5)
+        - valign
+        - width
+        - height
+        - bgcolor
+        - type
+        - start
+        - checked
+        - disabled
+        - maxlength
+        - readonly
+        - size
+        - value
+        - multiple
+        - selected
+        - cols
+        - rows
+        - max
+        - alt
+        - step
+        - height
+        - width
+        - src
+        - title
+
+-->

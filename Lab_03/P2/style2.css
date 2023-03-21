@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+}
+
+.header {
+    width: 100%;
+    text-align: center;
+    background-color: red;
+    padding: 20px;
+}
+
+.center_content {
+    display: flex;
+}
+
+.topnav {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    width: 20%;
+    height: 558px;
+    background-color: yellow;
+    margin: 0;
+}
+
+.topnav > a {
+    background-color: yellow;
+    padding: 5px;
+    color: black;
+    text-align: center;
+    border: solid;
+    border-width: 1px 0px 1px 0px;
+}
+
+.main {
+    width: 80%;
+    float: right;
+    padding: 250px 0 250px 0px;
+    background-color: green;
+    margin: 0;
+}
+
+.footer { 
+    margin: 0;
+    background-color: pink;
+    padding: 30px;
+    width: 100%;
+
+}

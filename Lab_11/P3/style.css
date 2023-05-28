@@ -1,0 +1,26 @@
+body {
+    border-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+select {
+    width: 80px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+label {
+    padding-top: 20px;
+}
+
+button {
+    margin-top: 40px;
+}

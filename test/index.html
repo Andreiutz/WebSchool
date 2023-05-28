@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ro-RO">
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+   <title>Call AJAX</title>
+</head>
+<body>
+<form>
+Introduceti un sir: <input type="text" id="sir" onkeyup="doAJAXRequest()"><br>
+Sirul trimis la server si primit inapoi convertit la majuscule este:
+<span id="rezultat"></span>
+</form>
+<script type="text/javascript">
+
+function doAJAXRequest() {
+    var request = new XMLHttpRequest();
+
+    request.onreadystatechange = function() {
+        if (request.readyState == 4) { // cerere rezolvata
+            if (request.status == 200) // raspuns Ok
+                document.getElementById('rezultat').innerHTML = request.responseText;
+            else
+                console.log('Eroare request.status: ' + request.status);
+        }
+    };
+
+    request.open('GET', 'http://localhost:3000/test/home.php?sir=' + document.getElementById('sir').value, true);
+    request.send('');
+}
+
+</script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+td, th, table {
+    border-style: solid;
+    border-width: 0px 1px;
+    border-color: black;
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: 5px 10px;
+}
+
+th {
+    border-width: 0px 1px 1px 0;
+    border-collapse: collapse;
+}
+
+body {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.active {
+    width: 40px;
+    height: 25px;
+    background-color: lightgray;
+    text-align: center;
+}
+
+.active:hover {
+    width: 40px;
+    height: 25px;
+    background-color: gray;
+}
+
+.inactive {
+    width: 40px;
+    height: 25px;
+    background-color: black;
+    text-align: center;
+}

@@ -4,7 +4,6 @@
     width: 350px;
     padding: 20px;
     border: solid 2px;
-    gap: 25px;
     align-items: center;
     background-color: yellow;
 }
@@ -23,4 +22,5 @@
 
 p {
     margin: 0 0 0 10px;
+    text-overflow: ellipsis;
 }

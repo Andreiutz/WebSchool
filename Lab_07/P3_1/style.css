@@ -1,0 +1,15 @@
+table, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    background-color: lightgray;
+    font-size: 0;
+}
+
+
+
